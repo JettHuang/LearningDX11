@@ -9,3 +9,5 @@
 *.opensdf
 *.sdf
 *.suo
+*.iobj
+*.ipdb

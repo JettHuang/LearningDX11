@@ -4,6 +4,7 @@
 #pragma once
 
 #include "DX11Includes.h"
+#include "dxerr.h"
 #include <cassert>
 
 
@@ -16,8 +17,8 @@
 			HRESULT hr = (x);		\
 			if(FAILED(hr))			\
 			{						\
-				assert(0);			\
-			}						\
+				DXTrace(__FILEW__, (DWORD)__LINE__, hr, L#x, true); \
+			}														\
 	}
 #endif // !HR
 
