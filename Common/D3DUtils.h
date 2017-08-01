@@ -6,6 +6,8 @@
 #include "DX11Includes.h"
 #include "dxerr.h"
 #include <cassert>
+#include <vector>
+#include <string>
 
 
 // D3D Error checker
@@ -35,3 +37,14 @@
 
 // convenience macro for deleting Objects
 #define SafeDelete(x)	{ delete x; x = 0; }
+
+
+// Utility Class
+class d3dHelper
+{
+public:
+	static ID3D11ShaderResourceView* CreateTexture2DArraySRV(
+		ID3D11Device* device, ID3D11DeviceContext* context, std::vector<std::wstring>& filenames);
+
+	static ID3D11ShaderResourceView* CreateRandomTexture1DSRV(ID3D11Device* device);
+};
