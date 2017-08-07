@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StencilDemo", "Stencil\Sten
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeBillboard", "TreeBillboard\TreeBillboard.vcxproj", "{06475631-CB7A-44B4-A7A4-A267B89F22DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS_Blur", "CS_Blur\CS_Blur.vcxproj", "{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{06475631-CB7A-44B4-A7A4-A267B89F22DF}.Release|x64.Build.0 = Release|x64
 		{06475631-CB7A-44B4-A7A4-A267B89F22DF}.Release|x86.ActiveCfg = Release|Win32
 		{06475631-CB7A-44B4-A7A4-A267B89F22DF}.Release|x86.Build.0 = Release|Win32
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Debug|x64.ActiveCfg = Debug|x64
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Debug|x64.Build.0 = Debug|x64
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Debug|x86.Build.0 = Debug|Win32
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x64.ActiveCfg = Release|x64
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x64.Build.0 = Release|x64
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x86.ActiveCfg = Release|Win32
+		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
