@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeBillboard", "TreeBillbo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS_Blur", "CS_Blur\CS_Blur.vcxproj", "{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicTesselation", "BasicTesselation\BasicTesselation.vcxproj", "{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x64.Build.0 = Release|x64
 		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x86.ActiveCfg = Release|Win32
 		{A12D7BEB-D15D-4F4C-AE81-776A41F826F6}.Release|x86.Build.0 = Release|Win32
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Debug|x64.ActiveCfg = Debug|x64
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Debug|x64.Build.0 = Debug|x64
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Debug|x86.ActiveCfg = Debug|Win32
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Debug|x86.Build.0 = Debug|Win32
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Release|x64.ActiveCfg = Release|x64
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Release|x64.Build.0 = Release|x64
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Release|x86.ActiveCfg = Release|Win32
+		{0996417F-D4B5-4AAC-9CC2-2DD30DADFB14}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
