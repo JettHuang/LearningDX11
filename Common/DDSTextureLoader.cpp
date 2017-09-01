@@ -152,7 +152,7 @@ namespace
         }
 
         // open the file
-#if (_WIN32_WINNT >= _WIN32_WINNT_WIN8)
+#if 0//(_WIN32_WINNT >= _WIN32_WINNT_WIN8)
         ScopedHandle hFile(safe_handle(CreateFile2(fileName,
             GENERIC_READ,
             FILE_SHARE_READ,
