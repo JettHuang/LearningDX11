@@ -10,6 +10,7 @@
 #include <Windows.h>
 #include <DirectXMath.h>
 #include <DirectXPackedVector.h>
+#include <DirectXCollision.h>
 
 using namespace DirectX;
 using namespace DirectX::PackedVector;
@@ -76,6 +77,9 @@ public:
 	static const float Pi;
 
 
+	static BOOL IntersectTriangleAxisAlignedBox(FXMVECTOR V0, FXMVECTOR V1, FXMVECTOR V2, const BoundingBox* pVolume);
+	static BOOL IntersectRayAxisAlignedBox(FXMVECTOR Origin, FXMVECTOR Direction, const BoundingBox* pVolume, FLOAT* pDist);
+	static BOOL IntersectRayTriangle(FXMVECTOR Origin, FXMVECTOR Direction, FXMVECTOR V0, CXMVECTOR V1, CXMVECTOR V2, FLOAT* pDist);
 };
 
 #endif // MATHHELPER_H
